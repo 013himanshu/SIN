@@ -1,0 +1,80 @@
+.topics {
+			background-color: #f7f7f7;
+		}
+		::selection {
+	    background: rgba(255, 162, 44, 0.35);
+	    text-shadow: none;
+		}
+		@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+		.rwd-table {
+		  margin: 1em 0;
+		  min-width: 300px;
+		  border-collapse: collapse;
+		}
+		th, td {
+			padding: 5px;
+		}					
+		.rwd-table td:first-child {
+		  padding-top: .5em;
+		}
+		.rwd-table td:last-child {
+		  padding-bottom: .5em;
+		}
+		.rwd-table td:before {
+		  font-weight: bold;
+		  width: 6.5em;
+		  display: inline-block;
+		}		
+		.rwd-table th,
+		.rwd-table td {
+		  text-align: left;
+		}
+		@media (min-width: 480px) {
+		  .rwd-table th,
+		  .rwd-table td {
+		    display: table-cell;
+		    padding: .25em .5em;
+		  }
+		  .rwd-table th:first-child,
+		  .rwd-table td:first-child {
+		    padding-left: 0;
+		  }
+		  .rwd-table th:last-child,
+		  .rwd-table td:last-child {
+		    padding-right: 0;
+		  }
+		}
+
+		.rwd-table {
+		  background: #363f4a;
+		  color: #fff;
+		  border-radius: .4em;
+		  overflow: hidden;
+		}
+		.rwd-table tr {
+		  border-color: #46637f;
+		}
+		.rwd-table th,
+		.rwd-table td {
+		  margin: .5em 1em;
+		}
+		@media (min-width: 480px) {
+		  .rwd-table th,
+		  .rwd-table td {
+		    padding: 1em !important;
+		  }
+		}
+		.rwd-table th,
+		.rwd-table td:before {
+		  color: #dd5;
+		}
+
+		@media screen and (max-width:991px) {
+			.border-hide {
+				border-left: none !important;
+			}
+		}
+
+		.row {
+			padding: 10px;
+		}
